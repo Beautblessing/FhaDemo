@@ -1,0 +1,73 @@
+[two_third]
+[styled_title]About us:[/styled_title]
+newlogo.fwThe French Embassy in Nigeria in partnership with Tripplelink and Campus France is organizing the Third Edition of the French Education Fair in Nigeria.
+
+The French Education Fair 2016 is conceived as a platform to promote education opportunities in France, where Nigerian students can directly interact with education providers and institutions from all over France Read More[/two_third]
+
+[one_third_last]
+[styled_title]Click to Register[/styled_title]
+
+note.fw [/one_third_last]
+
+[one_third]
+
+[styled_title]Event Note[/styled_title]
+[carousel id="default"]
+[carousel_item]
+
+
+
+kkkkkk
+
+[/carousel_item]
+
+[carousel_item]
+event banner222.fw
+
+[/carousel_item]
+
+[/carousel]
+
+[/one_third]
+
+[one_third]
+
+[blog items="4" title="Event  Daily News"]
+
+[/one_third]
+
+[one_third_last]
+[styled_title]Register Now[/styled_title]
+
+[wpdevart_countdown text_for_day="Days" text_for_hour="Hours" text_for_minut="Minutes" text_for_second="Seconds" start_time="1453644567" end_time="31,1,1" action_end_time="hide" content_position="center" top_ditance="10" bottom_distance="10" ][/wpdevart_countdown]
+[/one_third_last]
+
+[divider type="space" margintop="0" marginbottom="15"]
+[two_third]
+[styled_title]Invited School[/styled_title]
+[carousel id="events" itemwidth="160"]
+[carousel_item][lightbox group="students" src="http://frencheducationfair.com/wp-content/uploads/2013/05/carel.fw_.png"]carel.fw[/lightbox][/carousel_item]
+[carousel_item][lightbox group="students" src="http://frencheducationfair.com/wp-content/uploads/2016/01/image004.jpg"]image004[/lightbox][/carousel_item]
+[carousel_item][lightbox group="students" src="http://frencheducationfair.com/wp-content/uploads/2013/05/hec.fw_.png"]hec.fw[/lightbox][/carousel_item]
+[carousel_item][lightbox group="students" src="http://frencheducationfair.com/wp-content/uploads/2013/05/ieseg.fw_.png"]ieseg.fw[/lightbox][/carousel_item]
+[carousel_item][lightbox group="students" src="http://frencheducationfair.com/wp-content/uploads/2013/05/insead.fw_.png"]insead.fw[/lightbox][/carousel_item]
+[carousel_item][lightbox group="students" src="http://frencheducationfair.com/wp-content/uploads/2013/05/le-cnam.fw_.png"]le cnam.fw[/lightbox][/carousel_item]
+
+[carousel_item][lightbox group="students" src="http://frencheducationfair.com/wp-content/uploads/2013/05/ecolo.fw_.png"]ecolo.fw[/lightbox][/carousel_item]
+
+[carousel_item][lightbox group="students" src="http://frencheducationfair.com/wp-content/uploads/2013/05/nt1.png"]nt1[/lightbox][/carousel_item]
+
+content/uploads/2016/01/logo_SKEMA_BS-1.png"]logo_SKEMA_BS (1)[/lightbox][/carousel_item]
+
+content/uploads/2016/01/LCB_InternationalLogo.jpg"]LCB_InternationalLogo[/lightbox][/carousel_item]
+
+[/carousel]
+[/two_third]
+
+[one_third_last]
+[styled_title]Organized by: [/styled_title]
+[framed_image align="left"]Embassy of France in Nigeria, in Partnership with TrippleLink Global Solutions Limited and Campus France.[/framed_image]
+
+ 
+
+org[/one_third_last]

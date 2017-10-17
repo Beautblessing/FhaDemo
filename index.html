@@ -1,0 +1,1971 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<title> FHA App</title>
+		
+		<link rel="stylesheet" href="css/bootstrap.css">
+	 
+		<link rel="stylesheet" href="css/jquery.mobile.external-png-1.4.5.min.css">
+		<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css">
+		<link rel="stylesheet" href="css/jquery.mobile.inline-png-1.4.5.min.css">
+		<link rel="stylesheet" href="css/jquery.mobile.inline-svg-1.4.5.min.css">
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css">
+		<link rel="stylesheet" href="css/jquery.mobile.theme-1.4.5.min.css">
+		<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css">
+		<link rel="stylesheet" href="css/themes/firstheme.min.css">
+		<link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css">
+		<link rel="stylesheet" href="css/firs.css">
+		 
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery.mobile-1.4.5.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/app.js"></script>
+		 
+	</head>
+	
+	<body>
+	
+	
+	
+		<!-- page one -->
+		
+			<div data-role="page" id="page1">
+			
+				<div data-role="panel" id="left-panel" data-theme="d">
+					<ul data-role="listview" data-theme="b">
+						<li data-icon="delete">
+							<a href="#" data-rel="close"> Close Menu</a>
+						</li>
+						<li> <a href="#dash" data-transition="flip">Dash Board</a></li>
+						 
+						<li> <a href="#contact" data-transition="flip" >Contact</a></li>
+					</ul>
+			 </div>
+			 
+			 
+			 
+			 
+				<div data-role="header" data-position="fixed">
+					  <a href="#left-panel" data-role="button" data-icon="bars" data-iconpos="notext"  data-iconshadow="false">
+			  Menu</a>
+					
+					<h1>Federal Housing Authority</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content" id="mobile-content">
+				
+					<div class="remove_pad">
+					
+						<header id="myCarousel" class="carousel slide">
+							<!-- Indicators -->
+							<ol class="carousel-indicators">
+								<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+								<li data-target="#myCarousel" data-slide-to="1"></li>
+								<li data-target="#myCarousel" data-slide-to="2"></li>
+								<li data-target="#myCarousel" data-slide-to="3"></li>
+								<li data-target="#myCarousel" data-slide-to="4"></li>
+								<li data-target="#myCarousel" data-slide-to="5"></li>
+							</ol>
+
+							<!-- Wrapper for Slides -->
+							<div class="carousel-inner">
+								<div class="item active">
+									<!-- Set the first background image using inline CSS below. -->
+									<div class="fill"><img src="images/slider/slider1.png" class="img-responsive"></div>
+									<div class="carousel-caption">
+										<h2>..</h2>
+									</div>
+								</div>
+								 
+								<div class="item">
+									<!-- Set the second background image using inline CSS below. -->
+									<div class="fill"><img src="images/slider/slider_plan.png" class="img-responsive"></div>
+									<div class="carousel-caption">
+										<h2>..</h2>
+									</div>
+								</div>	
+
+
+									<div class="item">
+									<!-- Set the second background image using inline CSS below. -->
+									<div class="fill"><img src="images/slider/slider_5bedroom_detached_duplex.png" class="img-responsive"></div>
+									<div class="carousel-caption">
+										<h2>..</h2>
+									</div>
+								</div>
+
+								<div class="item">
+									<!-- Set the second background image using inline CSS below. -->
+									<div class="fill"><img src="images/slider/slider_diaspora.png" class="img-responsive"></div>
+									<div class="carousel-caption">
+										<h2>..</h2>
+									</div>
+								</div>	
+
+
+
+								<div class="item">
+									<!-- Set the second background image using inline CSS below. -->
+									<div class="fill"><img src="images/slider/slider_office.png" class="img-responsive"></div>
+									<div class="carousel-caption">
+										<h2>..</h2>
+									</div>
+								</div>
+
+
+								
+								
+								<div class="item">
+									<!-- Set the second background image using inline CSS below. -->
+									<div class="fill"><img src="images/slider/slider3.png" class="img-responsive"></div>
+									<div class="carousel-caption">
+										<h2>..</h2>
+									</div>
+								</div>
+								
+								 
+								 
+							 
+							</div>
+
+							<!-- Controls -->
+							<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+								<span class="icon-prev"></span>
+							</a>
+							<a class="right carousel-control" href="#myCarousel" data-slide="next">
+								<span class="icon-next"></span>
+							</a>
+
+						</header>
+							 
+							 
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 action_div_box">
+						 
+							<div class="action_title">
+								<center><h3> Login </h3></center>
+							</div>
+							
+							<div class="action">
+								 <form action="#" method="post" onsubmit="return false">
+									 
+									
+									<div class="form-group">
+										<label> House No:</label>
+											<input type="text" name="logintin" id="logintin" class="form-control" placeholder=" House No">
+									</div>
+									
+									 
+									 
+									
+									<div class="form-group">
+										<label> Password:</label>
+										<input type="password" name="loginpassword"  id="loginpassword" class="form-control" placeholder=" password">
+									</div>
+									
+									
+								 
+									 <div class="form-group">
+										<center><input type="submit" name="submit" onclick="loginfuc()" class="btn btn-danger  btn-lg" value="Login"></center>
+									</div>
+									
+								</form>
+								 <!-- <a href="#fplogin">Register</a>  -->
+								 
+								 <a href="#fplogin" class="pull-right">Register</a>
+								 <br>
+
+								<!--  <a href="#signup" class="pull-right">Generate Tin</a> -->
+							</div>
+							
+							<div class="clear"></div>
+						 </div>
+							 
+							 
+							<br/> <br/> <br/> 
+					</div><div class="clear"></div>
+					
+				
+				 
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+		</div>
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<!--- page one  end-->
+			
+			
+			 
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="signup">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Take an action </h3></center>
+							</div>
+							
+							<div class="action">
+								<div class="col-md-6 col-ms-6 col-xs-6 textcenter">
+									<center><a href="#csignup"><img src="images/signup.png" class="img-responsive"></a></center>
+									<center><a href="#csignup"><img src="images/cup.png" class="img-responsive"></a></center>
+								</div>
+								
+								<div class="col-md-6 col-ms-6 col-xs-6 textcenter">
+									<center><a href="#psignup"><img src="images/signup.png" class="img-responsive"></a></center>
+									<center><a href="#psignup"><img src="images/pup.png" class="img-responsive"></a></center>
+								</div>
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		<div data-role="page" id="csignup">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Company Signup Form </h3></center>
+							</div>
+							
+							<div class="action">
+								 <form action="#" method="post" onsubmit="return false">
+									<div class="form-group">
+										<label> Company's Name :</label>
+											<input type="text" name="cname" id="cname" class="form-control" placeholder=" Company's Name">
+									</div>
+									
+									<div class="form-group">
+										<label> Company's Address :</label>
+											<input type="text" name="caddress" id="caddress" class="form-control" placeholder=" Company's Address">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Company's Registration NO :</label>
+											<input type="text" name="regcno" id="regcno" class="form-control" placeholder=" Company's RC NO ">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Company's Registration Date :</label>
+											<input type="text" name="rcno" id="rcno" class="form-control" placeholder=" Company's Registration Date">
+									</div>
+									
+									
+										
+									<div class="form-group">
+										<label> Company's Email:</label>
+										<input type="email" name="cemail" id="cemail" class="form-control" placeholder=" Company's Email">
+									</div>
+									
+									<div class="form-group">
+										<label> Company's Tel:</label>
+										<input type="tel" name="ctel" id="ctel" class="form-control" placeholder=" Company's Tel">
+									</div>
+									
+									<div class="form-group">
+										<label> Company Code:</label>
+										<input type="text" name="ccode" id="ccode" class="form-control" placeholder=" Company Code">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Nature of Business:</label>
+										<input type="text" name="nature_business" id="nature_business" class="form-control" placeholder=" Nature of Business">
+									</div>
+									
+										
+									<div class="form-group">
+										<label> Company's CAC Certificate:</label>
+										<input type="file" name="cert" id="cert" class="form-control">
+									</div>
+									
+									 
+									
+									<div class="form-group">
+										<center><input type="submit" name="submit" class="btn btn-danger  btn-lg" value="Submit Registration" onclick="creatcompany()"></center>
+									</div>
+									
+									<div class="form-group">
+										 <div id="respondcompany333"></div>
+									</div>
+									
+								</form>
+								<br/>
+								<br/>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		
+
+<div data-role="page" id="psignup">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Personal Signup Form </h3></center>
+							</div>
+							
+							<div class="action">
+								 <form action="#" method="post" onsubmit="return false">
+									<div class="form-group">
+										<label> Taxpayer/Individual Name :</label>
+											<input type="text" name="pname" id="pname" class="form-control" placeholder=" Full Name">
+									</div>
+									
+									<div class="form-group">
+										<label>Registeration/I.D Card No:</label>
+											<input type="text" name="regID" id="regID" class="form-control" placeholder=" Registeration/I.D Card No">
+									</div>
+									
+									
+									<div class="form-group">
+										<label>Registeration Date:</label>
+											<input type="date" name="regDate" id="regDate" class="form-control" placeholder=" Registeration Date">
+									</div>
+									
+									
+									<div class="form-group">
+										<label>Business Address:</label>
+											<input type="text" name="bus_address" id="bus_address" class="form-control" placeholder=" Business Address">
+									</div>
+									
+									<div class="form-group">
+										<label>Employment Addredd if  different from above:</label>
+											<input type="text" name="emp_address" id="emp_address" class="form-control" placeholder=" Employment Addredd if  different from above">
+									</div>
+									
+									 
+										
+									<div class="form-group">
+										<label> Business line:</label>
+										<input type="text" name="bus_line" id="bus_line" class="form-control" placeholder=" Business line">
+									</div>	
+									<div class="form-group">
+										<label> Business code:</label>
+										<input type="text" name="bus_code" id="bus_code" class="form-control" placeholder=" Business code">
+									</div>
+									<div class="form-group">
+										<label> Date of Commencement?employmet:</label>
+										<input type="date" name="date_of_com" id="date_of_com" class="form-control" placeholder=" Date of Commencement?employmet">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Email:</label>
+										<input type="email" name="pemail"  id="pemail" class="form-control" placeholder=" Email">
+									</div>
+									
+									<div class="form-group">
+										<label> Phone No:</label>
+										<input type="tel" name="ptel"   id="ptel" class="form-control" placeholder=" Phone No">
+									</div>
+									
+									 
+									 
+									
+									<div class="form-group">
+										<center><input type="submit" name="submit" class="btn btn-danger  btn-lg" value="Submit Registration" onclick="createAccount()" ></center>
+									</div>
+									
+									
+									<div class="form-group">
+										<center> <div id="respond"></div> </center>
+									</div>
+									
+								</form>
+								<br/>
+								<br/>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+
+
+			
+		
+
+
+		
+			
+			
+			
+			
+			
+			<div data-role="page" id="flogin">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Take an action </h3></center>
+							</div>
+							
+							<div class="action">
+								<div class="col-md-6 col-ms-6 col-xs-6 textcenter">
+									<center><a href="#fplogin"><img src="images/plogin.png" class="img-responsive"></a></center>
+								 </div>
+								
+								<div class="col-md-6 col-ms-6 col-xs-6 textcenter">
+									<center><a href="#fclogin"><img src="images/clogin.png" class="img-responsive"></a></center>
+								 </div>
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+	
+
+
+
+<div data-role="page" id="fplogin">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Personal/Business </h3></center>
+							</div>
+							
+							<div class="action">
+								 <form action="#dash" method="post" onsubmit="return false">
+									<div class="form-group">
+										<label> Business name/Full Name :</labeil>
+											<input type="text" name="name"  id="bus_per_name" class="form-control" placeholder="  Business Name /Full Name">
+									</div>
+									
+									<div class="form-group">
+										<label> Tin No:</label>
+											<input type="number" name="tin"  id="BP_tin" class="form-control" placeholder=" Tin number">
+									</div>
+									
+									
+									
+									<div class="form-group">
+										<label>Email:</label>
+											<input type="email" name="email"  id="BP_email" class="form-control" placeholder=" Email">
+									</div>
+									
+									 
+									 
+									
+									<div class="form-group">
+										<label> Password:</label>
+										<input type="password" name="password"  id="BP_passwordp" class="form-control" placeholder=" Password">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Confirm Password:</label>
+										<input type="password" name="password2" id="BP_password2" class="form-control" placeholder=" Confirm password">
+									</div>
+									
+								 
+									 
+									
+									<div class="form-group">
+										 <center><input type="submit" name="submit" onclick="regdatalogin()" class="btn btn-danger  btn-lg" value="Submit Registration"></center>
+									</div>
+									
+								</form>
+								<br/>
+							 
+							 </div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div data-role="page" id="fclogin">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Company login </h3></center>
+							</div>
+							
+							<div class="action">
+								 <form action="#" method="post">
+									<div class="form-group">
+										<label> Name of Company :</label>
+											<input type="text" name="name" class="form-control" placeholder=" Full Name">
+									</div>
+									
+									<div class="form-group">
+										<label> RC No:</label>
+											<input type="number" name="rc" class="form-control" placeholder=" Date of Birth">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Tin No:</label>
+											<input type="number" name="tin" class="form-control" placeholder=" Date of Birth">
+									</div>
+									
+									 
+									 
+									
+									<div class="form-group">
+										<label> Password:</label>
+										<input type="email" name="password" class="form-control" placeholder="password">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Confirm Password:</label>
+										<input type="email" name="password2" class="form-control" placeholder="password">
+									</div>
+									
+								 
+									
+								 
+									 
+									
+									<div class="form-group">
+										<center><input type="submit" name="submit" class="btn btn-danger  btn-lg" value="Submit Registration"></center>
+									</div>
+									
+								</form>
+								<br/>
+								<br/>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="rlogin">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Take an action </h3></center>
+							</div>
+							
+							<div class="action">
+								<div class="col-md-6 col-ms-6 col-xs-6 textcenter">
+									<center><a href="#rplogin"><img src="images/plogin.png" class="img-responsive"></a></center>
+								 </div>
+								
+								<div class="col-md-6 col-ms-6 col-xs-6 textcenter">
+									<center><a href="#rclogin"><img src="images/clogin.png" class="img-responsive"></a></center>
+								 </div>
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+	<div data-role="page" id="rclogin">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Company login </h3></center>
+							</div>
+							
+							<div class="action">
+								 <form action="#" method="post">
+									 
+									
+									<div class="form-group">
+										<label> House No:</label>
+											<input type="number" name="tin" class="form-control" placeholder="Tin No">
+									</div>
+									
+									 
+									 
+									
+									<div class="form-group">
+										<label> Password:</label>
+										<input type="email" name="password" class="form-control" placeholder="password">
+									</div>
+									
+									
+								 
+									 <div class="form-group">
+										<center><input type="submit" name="submit" class="btn btn-danger  btn-lg" value="Submit Registration"></center>
+									</div>
+									
+								</form>
+								<br/>
+								<br/>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="rplogin">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Company login </h3></center>
+							</div>
+							
+							<div class="action">
+								 <form action="#" method="post">
+									 
+									
+									<div class="form-group">
+										<label> Tin No:</label>
+											<input type="number" name="tin" class="form-control" placeholder=" Tin No">
+									</div>
+									
+									 
+									 
+									
+									<div class="form-group">
+										<label> Password:</label>
+										<input type="email" name="password" class="form-control" placeholder="password">
+									</div>
+									
+									
+								 
+									 <div class="form-group">
+										<center><input type="submit" name="submit" class="btn btn-danger  btn-lg" value="Submit Registration"></center>
+									</div>
+									
+								</form>
+								<br/>
+								<br/>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="dash">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				
+				
+				
+				<div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Dashboard</h3></center>
+							</div>
+							
+							<div class="action2">
+								<div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#message"><img src="images/m.png" class="img-responsive"></a></center>
+								 </div>
+								
+								<div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#paytax1"><img src="images/paytax.png" class="img-responsive"></a></center>
+								 </div>
+								 
+								 
+								 <div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#taxhistory"><img src="images/taxh.png" class="img-responsive"></a></center>
+								 </div>
+								 
+								 <div class="clear visible-lg visible-md visible-sm"><br/></div>
+								 
+								 <div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#edit"><img src="images/edit.png" class="img-responsive"></a></center>
+								 </div>
+								
+								<div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#taxupdate"><img src="images/updates.png" class="img-responsive"></a></center>
+								 </div>
+								 
+								 
+								 <div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#taxagent"><img src="images/agent.png" class="img-responsive"></a></center>
+								 </div>
+								 
+								 
+								  <div class="clear visible-lg visible-md visible-sm"><br/></div>
+								 
+								 <div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#location"><img src="images/location.png" class="img-responsive"></a></center>
+								 </div>
+								
+								<div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#faqpage"><img src="images/faq.png" class="img-responsive"></a></center>
+								 </div>
+								 
+								 
+								 <div class="col-md-4 col-ms-4 col-xs-6 textcenter">
+									<center><a href="#contact"><img src="images/contact.png" class="img-responsive"></a></center>
+								 </div>
+								 
+								 
+								 
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="contact">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Contact FHA</h3></center>
+							</div>
+							
+							<div class="action2">
+								 	 <form action="#" method="post">
+									<div class="form-group">
+										<label> Full Name :</label>
+											<input type="text" name="name" class="form-control" placeholder=" Full Name">
+									</div>
+									
+									<div class="form-group">
+										<label> Email:</label>
+											<input type="email" name="email" class="form-control" placeholder=" Email">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Message:</label>
+											<textarea name="message" id="message" class="form-control" rows="8" placeholder=" Message" ></textarea>
+									</div>
+									
+									 
+									 <div class="form-group">
+										<center><input type="submit" name="submit" class="btn btn-danger  btn-lg" value="Contact Us"></center>
+									</div>
+									
+								</form>
+								 
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="edit">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Edit account</h3></center>
+							</div>
+							
+							<div class="action2">
+								<form action="#" method="post">
+									<div class="form-group">
+										<label> Full Name :</label>
+											<input type="text" name="name" class="form-control" value="Kunle Oluyole">
+									</div>
+									
+									<div class="form-group">
+										<label> Email:</label>
+											<input type="email" name="email" class="form-control" value="kunleoluyole@gmail.com">
+									</div>
+									
+									<div class="form-group">
+										<label> Tel:</label>
+											<input type="tel" name="tel" class="form-control" value="09099779774">
+									</div>
+									
+									<div class="form-group">
+										<label> Date of Birth:</label>
+											<input type="text" name="date" class="form-control" value="12/12/1967">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Password:</label>
+											<input type="text" name="date" class="form-control" placeholder="password">
+									</div>
+									
+									
+									<div class="form-group">
+										<label> Bussiness Address:</label>
+											<textarea name="address" class="form-control">NO 42 Onitsha  Crescent Area 11 Garki Abuja</textarea>
+									</div>
+									
+									
+									 
+									 <div class="form-group">
+										<center><input type="submit" name="submit" class="btn btn-danger  btn-lg" value="Update Account"></center>
+									</div>
+									
+								</form>
+								 
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>	
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="message">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Inbox</h3></center>
+							</div>
+							
+							<div class="action2">
+								 <div class="imsg"><h3>Payment verification</h3>
+								  <p>Congratulation your payment was successful, your payment have been received ..............</p>
+								 </div>
+								 
+								 
+								 <div class="imsg"><h3>Update information from FHA</h3>
+								  <p>Congratulation your payment was successful, your payment have been received ..............</p>
+								 </div>	
+
+
+								 
+								 <div class="imsg"><h3>Why shold i pay?</h3>
+								  <p>Congratulation your payment was successful, your payment have been received ..............</p>
+								 </div>
+								 
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="paytax1">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Pay Now</h3></center>
+							</div>
+							
+							<div class="action2">
+								  <form action="#" method="post">
+									<div class="form-group">
+										<label> Full Name :</label>
+											<input type="text" name="name" class="form-control" value="Kunle Oluyole">
+									</div>
+									
+									 
+									 <div class="form-group">
+										<label> Payment ID</label>
+											<input type="text" name="date" class="form-control" value="FHA00012348">
+									</div>
+									 
+									 
+									 <div class="form-group">
+										<label> Class of payment</label>
+											<select name="payment_type"   >
+												<option value="Education Tax">Consent Ground Rent</option>
+												<option value="Company Income Tax">Planning Approval</option>
+												<option value="Value added Tax">Land Charges</option>
+												<option value="Value added Tax">Housing Payment</option>
+											</select>
+									 </div>  
+									 
+									 
+									 <div class="form-group">
+										<label> Year payment</label>
+											<select name="payment_type"   >
+												<option value="20012">2011</option>
+												<option value="20012">2012</option>
+												<option value="20013">2013</option>
+												<option value="2014">2014</option>
+												<option value="2015">2015</option>
+												<option value="2016">2016</option>
+												  
+											</select>
+									 </div> 
+									
+									
+									
+									
+									
+									<div class="form-group">
+										<label> Payment Account</label>
+											<input type="number" name="amount" class="form-control" placeholder="Enter Amount">
+									</div>
+									
+									
+									 
+									 
+									 
+									 <div class="form-group">
+										<center><input type="submit" name="submit" class="btn btn-success btn-lg" value="Pay Now"></center>
+									</div>
+									
+								</form>
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="taxagent">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>Payment Agents</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Payment Agents</h3></center>
+							</div>
+							
+							<div class="action2">
+								 <div class="imsg"><h3>Triune Built Tech Solutions</h3>
+								  <p> Tel: 08135531603, 09099779774</p>
+								  <p> Email: info@tbs-ng.com</p>
+								  <p> Address: No 42 Ontisha Crescent area 11 Garki, Abuja</p>
+								  <p> Location:  Garki, Abuja</p>
+								 </div>
+								 
+								 
+								 <div class="imsg"><h3>Reachout Multiservices</h3>
+								  <p> Tel: 08135531603, 09099779774</p>
+								  <p> Email: info@reachout.com</p>
+								  <p> Address: No 42 Ontisha Crescent area 11 Garki, Abuja</p>
+								  <p> Location:  Garki, Abuja</p>
+								 </div> 
+								 
+								 
+								 <div class="imsg"><h3>Devongnosis</h3>
+								  <p> Tel: 08135531603, 09099779774</p>
+								  <p> Email: info@devongnosis.com</p>
+								  <p> Address: No 42 Ontisha Crescent area 11 Garki, Abuja</p>
+								  <p> Location:  Garki, Abuja</p>
+								 </div>
+								 
+								 
+								 
+								 
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		<div data-role="page" id="taxupdate">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Payment Update</h3></center>
+							</div>
+							
+							<div class="action2">
+								 <div class="imsg"><h3>Payment verification</h3>
+								  <p>Congratulation your payment was successful, your payment have been received ..............</p>
+								 </div>
+								 
+								 
+								 <div class="imsg"><h3>Update information from FHA</h3>
+								  <p>Congratulation your payment was successful, your payment have been received ..............</p>
+								 </div>	
+
+
+								 
+								 <div class="imsg"><h3>Why shold i pay?</h3>
+								  <p>Congratulation your payment was successful, your payment have been received ..............</p>
+								 </div>
+								 
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>	
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			<div data-role="page" id="faqpage">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA App</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> Payment Update</h3></center>
+							</div>
+							
+							<div class="action2">
+								 <div class="imsg"><h3>Why You Should Pay?</h3>
+								  <p>...........................................................................</p>
+								 </div>
+								 
+								 
+								 <div class="imsg"><h3>What are the uses of paying?</h3>
+								  <p>...........................................................................</p>
+								 </div>
+								 
+								 
+								  <div class="imsg"><h3>How does it help the society? </h3>
+								  <p>...........................................................................</p>
+								 </div>
+								 
+								  <div class="imsg"><h3>Why Must I keep paying?</h3>
+								  <p>...........................................................................</p>
+								 </div>
+								 
+								 
+								  
+								<div class="clear"></div>
+							</div>
+							
+							
+						 </div>
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>	
+			
+			
+			
+			
+			
+			
+			
+			
+		<div data-role="page" id="location">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>FHA Location</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> FHA Location</h3></center>
+							</div>
+							
+							<div class="action2">
+								 <div class="imsg"><h3> Federal Housing Authority</h3>
+								  <p> Tel: 234-8074983355</p>
+								  <p> E-mail: info@fha.gov.ng</p>
+								  <p> Address:  26 Julius Nyerere Crescent, Asokoro, Abuja</p>
+								  <p> Location: Asokoro, Abuja</p>
+								 </div>
+								 
+								 
+							   <div class="clear"></div>
+							</div>
+							
+							
+						 </div>
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					
+		<div data-role="page" id="taxhistory">
+				<div data-role="header" data-position="fixed">
+					 <a href="#" data-rel="back" data-icon="back"   data-iconshadow="false">Back</a>
+					 
+					
+					<h1>Payment History</h1>
+					
+					<a href="#page1" data-role="button" data-icon="home" data-iconpos="notext"  data-iconshadow="false"></a>
+  
+				</div>
+				
+				 <div data-role="content">
+					<div class="container">
+						<div class="rows">
+							<div class="col-md-12 col-ms-12 col-xs-12 textcenter remove_pad">
+								<center><img src="images/logo.png" class="img-responsive"></center>
+							</div>
+						 </div>
+						
+						<div class="rows">
+						<div class="clear"></div>
+						 
+						 <div class="action_div">
+						 
+							<div class="action_title">
+								<center><h3> PaymentHistory</h3></center>
+							</div>
+							
+							<div class="action2">
+								  
+								 <div class="">
+								 
+									<h5>Payment Date :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 09-Feb-2000 to 09-Feb-2016</h5>
+									<h5>Beneficiary Tin : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   &nbsp;  &nbsp; &nbsp; &nbsp;  11142731-0001</h5>
+									<h5>Beneficiary Name : &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   BENZON STEEL COMPANY LIMITED</h5>
+									<h5>Total Transaction Amount:&nbsp; &nbsp; &nbsp;     60,364,830.00</h5>
+									<h5>Total WHT Amount: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  3,018,241.50</h5>
+									<hr/>
+										 <table data-role="table" data-mode="columntoggle" class="ui-responsive" id="myTable">
+											  <thead>
+												<tr>
+												  <th data-priority="7">S/N</th>
+												  <th>Tax Agent Tin</th>
+												  <th data-priority="1">Tax Agent Name</th>
+												  <th data-priority="2">Transaction Date</th>
+												  <th data-priority="2">Transaction Des</th>
+												  <th data-priority="3">Transaction Amount (N)</th>
+												  <th data-priority="4">WHT Rate</th>
+												  <th data-priority="5">WHT Amount(N)</th>
+												  <th data-priority="6">Payment Reference</th>
+												</tr>
+											  </thead>
+											  <tbody>
+											  
+												<tr>
+												  <td>1</td>
+												  <td>01378749-0001</td>
+												  <td>BNL Engineering & Construction LTD</td>
+												  <td>02 mar 2013</td>
+												  <td>Supplies</td>
+												  <td>9,479,670.00</td>
+												  <td>0.5</td>
+												  <td>473,983.50</td>
+												  <td>ABP|FIRS|23-04-2013|369617</td>
+												</tr>
+												 
+												 
+												 <tr>
+												  <td>2</td>
+												  <td>01378749-0001</td>
+												  <td>BNL Engineering & Construction LTD</td>
+												  <td>02 mar 2013</td>
+												  <td>Supplies</td>
+												  <td>9,479,670.00</td>
+												  <td>0.5</td>
+												  <td>473,983.50</td>
+												  <td>ABP|FIRS|23-04-2013|369617</td>
+												</tr> 
+												
+												
+												<tr>
+												  <td>3</td>
+												  <td>01378749-0001</td>
+												  <td>BNL Engineering & Construction LTD</td>
+												  <td>02 mar 2013</td>
+												  <td>Supplies</td>
+												  <td>9,479,670.00</td>
+												  <td>0.5</td>
+												  <td>473,983.50</td>
+												  <td>ABP|FIRS|23-04-2013|369617</td>
+												</tr>
+												
+												
+												
+												 <tr>
+												  <td>4</td>
+												  <td>01378749-0001</td>
+												  <td>BNL Engineering & Construction LTD</td>
+												  <td>02 mar 2013</td>
+												  <td>Supplies</td>
+												  <td>9,479,670.00</td>
+												  <td>0.5</td>
+												  <td>473,983.50</td>
+												  <td>ABP|FIRS|23-04-2013|369617</td>
+												</tr>
+												 
+												 
+												 
+
+											  </tbody>
+											</table>
+								 
+								 
+								 </div>
+								 <div class="clear"></div>
+							</div>
+							
+							
+						 </div>
+							
+						</div>
+						
+						 
+					</div>
+				</div>
+				
+				
+				<div data-role="footer" data-position="fixed">
+					<h1>Copyright &copy; 2016</h1>
+				</div>
+					
+			</div>
+				
+			
+		
+
+		
+		
+		
+		
+		
+
+		<script>
+			  $('.carousel').carousel({
+				interval: 5000 //changes the speed
+			})
+			
+		</script>
+
+
+ </body>
+</html>
